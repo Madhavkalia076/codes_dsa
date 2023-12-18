@@ -53,7 +53,11 @@ int main(){
     node*root=NULL;
     root=build(root);
     node*ans;
-    ans=lca(root,8,5);
+    int n1, n2;
+    cout<<"enter the nodes: "<<endl;
+    cin>>n1;
+    cin>>n2;
+    ans=lca(root,n1,n2);
     cout<<"LCA: "<<ans->data;
     return 0;
 }
