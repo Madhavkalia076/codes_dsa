@@ -32,7 +32,8 @@ bool uniqueOccurrences(vector<int>& arr) {
     int main(){
         vector<int>a={1,2,2,1,1,3};
         bool ans=uniqueOccurrences(a);
-        cout<<"whether there is a unqiue occurence or not: "<<ans<<endl;
+        cout<<"whether there is a unqiue occurence or not: "<<ans;
+        cout<<endl;
         return 0;
     }
 
