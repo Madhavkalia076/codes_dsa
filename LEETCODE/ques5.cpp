@@ -8,17 +8,43 @@ using namespace std;
 
 void sort(vector<int>&nums){
     //USING COUNTING SORT:
-    vector<int>count(3,0) ; //this will make a vector of size 3 and each element is 0
-    for(int i=0;i<nums.size();i++){
-        count[nums[i]]++;
+    // vector<int>count(3,0) ; //this will make a vector of size 3 and each element is 0
+    // for(int i=0;i<nums.size();i++){
+    //     count[nums[i]]++;
         
-    }
-    int k=0;
-    for(int i=0;i<3;i++){
-        for(int j=0;j<count[i];j++){
-            nums[k]=i;
-            k++;
+    // }
+    // int k=0;
+    // for(int i=0;i<3;i++){
+    //     for(int j=0;j<count[i];j++){
+    //         nums[k]=i;
+    //         k++;
+    //     }
+    // }
+
+    //DUSRE METHOD:
+    int zero=0;
+    int one=0;
+    int two=0;
+    for(int i=0;i<nums.size();i++){
+        if(nums[i]==0){
+            zero++;
         }
+        else if(nums[i]==1){
+            one++;
+        }
+        else{
+             two++;
+        }
+
+    } 
+    for(int i=0;i<zero;i++){
+        nums[i]=0;
+    }
+    for(int i=0;i<one;i++){
+        nums[zero+i]=1;
+    }
+    for(int i=0;i<two;i++){
+        nums[zero+one+i]=2;
     }
 
 }
