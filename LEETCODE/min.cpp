@@ -49,7 +49,7 @@ int findMin(vector<int>& arr) {
 
 int main()
 {
-    vector<int> arr = {11 ,12,13,14};
+    vector<int> arr = {4,5,6,7,1,2,3};
     int ans = findMin(arr);
     cout << "The minimum element is: " << ans << "\n";
     return 0;
