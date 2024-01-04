@@ -55,7 +55,7 @@ using namespace std;
         return ans;
     }
     int main(){
-        vector<int>nums={5,7,7,8,8,10};
+        vector<int>nums={1,1,1,2,4,5,6,7,7,7,8};
         int target;
         cout<<"enter the target: ";
         cin>>target;
