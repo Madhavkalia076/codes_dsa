@@ -27,7 +27,7 @@ vector<int> majorityElement(vector<int>& nums) {
         return result;
     }
 int main(){
-  vector<int>nums={1,2,2,1,1,3};
+  vector<int>nums={3,4,5,1,9,5,5};
   vector<int>ans;
   ans=majorityElement(nums);
   for(int i=0;i<ans.size();i++){
