@@ -53,6 +53,6 @@ int main(){
     cout<<"enter the data for the BST: "<<endl;
     takeinput(root);
     cout<<endl;
-    cout<<"is tree a valid BST  or not"<<isvalidBST(root);
+    cout<<"is tree a valid BST  or not: "<<isvalidBST(root);
     return 0;
 }
