@@ -28,7 +28,7 @@ int searchInsert(vector<int>& nums, int target) {
         return low;
     }
     int main(){
-        vector<int>nums={1,3,5,6};
+        vector<int>nums={1,2,3,6,7,8};
         int target=7;
         int ans=searchInsert(nums,target);
         cout<<ans<<endl;
