@@ -71,7 +71,7 @@ using namespace std;
         return count;
     }
 int main(){
-    vector<int> a = {2,4,3,5,1};
+    vector<int> a = {2,3,4,8,5,6};
     int n = 5;
     int cnt = reversePairs(a);
     cout << "The number of reverse pair is: "
