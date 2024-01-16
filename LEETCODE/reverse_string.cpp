@@ -38,6 +38,12 @@ string reverseWords(string s)
 int main()
 {
   string s = "my name is madhav";
+  cout << "original string: " << endl;
+  for (int i = 0; i < s.size(); i++)
+  {
+    cout << s[i];
+  }
+  cout << endl;
   string ans = reverseWords(s);
   cout << "words  in the reverse order: " << endl;
   for (int i = 0; i < ans.size(); i++)
