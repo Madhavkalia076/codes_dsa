@@ -43,8 +43,8 @@ int main()
   // string s = "anagram";
   // string t = "nagaram";
 
-  string s = "dog";
-  string t = "cat";
+  string s = "anagram";
+  string t = "nagaram";
   int ans = isAnagram(s, t);
   cout << ans;
   return 0;
