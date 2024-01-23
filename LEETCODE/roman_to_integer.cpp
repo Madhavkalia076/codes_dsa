@@ -33,7 +33,10 @@ int numeric(string s)
 }
 int main()
 {
-  string s = "XXV";
+  cout << "enter the roman value: " << endl;
+  string s;
+  getline(cin, s);
+  cout << "integer value: ";
   int ans = numeric(s);
   cout << ans;
   return 0;
