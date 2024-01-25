@@ -50,7 +50,7 @@ vector<vector<int>> depthFirstSearch(int V, int E, vector<vector<int>> &edges)
 }
 int main()
 {
-  vector<vector<int>> edges = {{0, 1}, {0, 2}, {1, 2}, {3, 4}};
+  vector<vector<int>> edges = {{0, 1}, {0, 2}, {1, 2}, {3, 5}};
   vector<vector<int>> ans = depthFirstSearch(5, 4, edges);
   cout << "depth first traversal : " << endl;
   for (int i = 0; i < ans.size(); i++)
