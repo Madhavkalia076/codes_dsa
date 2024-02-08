@@ -19,7 +19,7 @@ bool isPowerOfTwo(int n)
 }
 int main()
 {
-  int n = 27;
+  int n = 64;
   cout << isPowerOfTwo(n);
   return 0;
 }
