@@ -41,7 +41,7 @@ string frequencySort(string s)
 }
 int main()
 {
-  string s = "tree";
+  string s = "madhav";
   string ans = frequencySort(s);
   for (int i = 0; i < ans.size(); i++)
   {
