@@ -75,7 +75,7 @@ Node *addTwoNumbers(Node *num1, Node *num2)
 }
 int main()
 {
-  vector<int> arr = {2, 4, 3};
+  vector<int> arr = {2, 4, 3, 5, 7};
   Node *head1 = constructLL(arr);
   cout << "linked list1: " << endl;
   print(head1);
