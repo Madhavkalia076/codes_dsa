@@ -40,7 +40,7 @@ int beautySum(string s)
 }
 int main()
 {
-  string s = "aabcb";
+  string s = "madhav";
   int ans = beautySum(s);
   cout << ans;
   return 0;
