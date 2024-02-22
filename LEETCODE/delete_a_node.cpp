@@ -55,7 +55,7 @@ void deletenode(node *val)
 }
 int main()
 {
-  vector<int> arr = {5, 10, 20, 30, 40, 50};
+  vector<int> arr = {5, 10, 20, 30, 40, 50, 60};
   node *head = constructLL(arr);
   cout << "before deleting the node : ";
   print(head);
