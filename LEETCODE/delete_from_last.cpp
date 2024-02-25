@@ -66,7 +66,7 @@ Node *DeleteNthNodefromEnd(Node *head, int N)
 
 int main()
 {
-  vector<int> arr = {1, 2, 3, 4, 5, 6};
+  vector<int> arr = {1, 2, 3, 4, 5, 6, 7, 8};
   int N = 3;
   Node *head = new Node(arr[0]);
   head->next = new Node(arr[1]);
