@@ -63,7 +63,7 @@ vector<vector<int>> threeSum(vector<int> &nums)
 }
 int main()
 {
-    vector<int> nums = {0, 1, 1, 3, 4};
+    vector<int> nums = {0, 1, 1, 3, 4, 5, 6};
     vector<vector<int>> ans;
     ans = threeSum(nums);
     cout << "3sum= " << endl;
